@@ -1,0 +1,2172 @@
+[
+  {
+    "isbn": [
+      {
+        "id": "f6d8fb1e-d793-4398-b410-9d1d1e473e92",
+        "created_at": "2023-08-09T13:04:30.754Z",
+        "updated_at": "2023-08-10T02:40:22.091Z",
+        "number": "978-0-306-40615-7"
+      },
+      {
+        "id": "b7647675-1ccc-4742-9fa2-19bb90d8fa1c",
+        "created_at": "2023-08-09T14:12:52.899Z",
+        "updated_at": "2023-08-10T01:31:13.100Z",
+        "number": "978-0-553-21311-0"
+      },
+      {
+        "id": "2c09e371-3a9a-4720-b02f-a4722802dafe",
+        "created_at": "2023-08-09T13:53:20.905Z",
+        "updated_at": "2023-08-09T20:50:57.304Z",
+        "number": "978-0-8129-7815-3"
+      },
+      {
+        "id": "b007561e-3e0d-4b88-af9e-fad5736b552a",
+        "created_at": "2023-08-09T18:37:17.021Z",
+        "updated_at": "2023-08-09T13:17:41.052Z",
+        "number": "978-0-385-50420-9"
+      },
+      {
+        "id": "bec617e5-8682-4e80-ac45-389597d0bdec",
+        "created_at": "2023-08-10T04:17:47.998Z",
+        "updated_at": "2023-08-10T06:05:57.065Z",
+        "number": "978-0-307-27870-1"
+      }
+    ],
+    "book": [
+      {
+        "id": "d2e74437-b935-42df-8bc2-fe0b88d793d8",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "created_at": "2023-08-09T22:09:18.154Z",
+        "updated_at": "2023-08-10T08:53:46.044Z",
+        "isbn_id": "b007561e-3e0d-4b88-af9e-fad5736b552a",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "14ad606d-a969-4709-8d7d-770a1a3ff396",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "created_at": "2023-08-10T10:45:04.692Z",
+        "updated_at": "2023-08-09T19:04:33.265Z",
+        "isbn_id": "2c09e371-3a9a-4720-b02f-a4722802dafe",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "c38c07d3-279a-425b-9a20-1c3c0c0c5ec6",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "created_at": "2023-08-10T08:58:55.077Z",
+        "updated_at": "2023-08-10T03:53:26.397Z",
+        "isbn_id": "b007561e-3e0d-4b88-af9e-fad5736b552a",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "27bc283a-09af-406b-b6de-1c8a85426363",
+        "title": "1984",
+        "author": "George Orwell",
+        "created_at": "2023-08-10T06:50:47.955Z",
+        "updated_at": "2023-08-09T15:10:05.545Z",
+        "isbn_id": "b007561e-3e0d-4b88-af9e-fad5736b552a",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "334d0c7b-5420-4283-bb4d-be1eb5734db6",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "created_at": "2023-08-10T02:47:41.175Z",
+        "updated_at": "2023-08-10T10:16:24.169Z",
+        "isbn_id": "2c09e371-3a9a-4720-b02f-a4722802dafe",
+        "library_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "55e7b191-5dc7-4370-bbfa-5b3f82413612",
+        "due_date": "2023-08-10T02:07:50.653Z",
+        "created_at": "2023-08-10T03:10:37.016Z",
+        "updated_at": "2023-08-10T03:52:15.041Z",
+        "book_id": "334d0c7b-5420-4283-bb4d-be1eb5734db6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf6f030a-3079-40cb-a6d5-4879342c53e1",
+        "due_date": "2023-08-09T14:51:51.298Z",
+        "created_at": "2023-08-09T15:24:52.236Z",
+        "updated_at": "2023-08-09T17:29:15.968Z",
+        "book_id": "c38c07d3-279a-425b-9a20-1c3c0c0c5ec6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9b53828-4c41-4432-bea2-b129e1e86524",
+        "due_date": "2023-08-09T20:54:52.756Z",
+        "created_at": "2023-08-10T11:34:08.088Z",
+        "updated_at": "2023-08-09T13:02:22.709Z",
+        "book_id": "334d0c7b-5420-4283-bb4d-be1eb5734db6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "966868c0-4bb7-4167-a957-ddcf92bab366",
+        "due_date": "2023-08-10T11:15:05.739Z",
+        "created_at": "2023-08-09T21:00:54.200Z",
+        "updated_at": "2023-08-10T11:21:47.032Z",
+        "book_id": "27bc283a-09af-406b-b6de-1c8a85426363",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54ec57c3-177f-416e-865a-01d66d31a19a",
+        "due_date": "2023-08-09T18:27:57.654Z",
+        "created_at": "2023-08-09T14:29:32.547Z",
+        "updated_at": "2023-08-09T18:30:37.111Z",
+        "book_id": "27bc283a-09af-406b-b6de-1c8a85426363",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "borrowing": [
+      {
+        "id": "7788d308-af07-4d98-b805-251578934438",
+        "borrow_date": "2023-08-10T04:09:48.291Z",
+        "return_date": "2023-08-10T11:33:02.008Z",
+        "created_at": "2023-08-09T23:44:55.021Z",
+        "updated_at": "2023-08-09T20:04:26.022Z",
+        "book_id": "27bc283a-09af-406b-b6de-1c8a85426363",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8f594e9-6f49-44b6-a88e-28bc14a32f20",
+        "borrow_date": "2023-08-09T22:32:03.751Z",
+        "return_date": "2023-08-09T15:41:23.427Z",
+        "created_at": "2023-08-10T07:04:21.807Z",
+        "updated_at": "2023-08-10T04:19:13.212Z",
+        "book_id": "27bc283a-09af-406b-b6de-1c8a85426363",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d36f0d7-9535-4661-aeda-f2eefc6c203f",
+        "borrow_date": "2023-08-10T08:01:44.922Z",
+        "return_date": "2023-08-09T23:34:49.983Z",
+        "created_at": "2023-08-10T10:53:40.998Z",
+        "updated_at": "2023-08-09T20:32:56.800Z",
+        "book_id": "c38c07d3-279a-425b-9a20-1c3c0c0c5ec6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "706ba1e5-2e16-4b3b-a5b5-2da9a5ed8000",
+        "borrow_date": "2023-08-09T12:35:30.612Z",
+        "return_date": "2023-08-10T00:17:36.332Z",
+        "created_at": "2023-08-10T07:37:38.440Z",
+        "updated_at": "2023-08-10T03:21:42.436Z",
+        "book_id": "14ad606d-a969-4709-8d7d-770a1a3ff396",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a89bbad-e0f1-408f-a15a-b05561785b1e",
+        "borrow_date": "2023-08-10T03:58:24.080Z",
+        "return_date": "2023-08-09T18:08:39.007Z",
+        "created_at": "2023-08-09T12:39:52.638Z",
+        "updated_at": "2023-08-10T10:33:43.844Z",
+        "book_id": "c38c07d3-279a-425b-9a20-1c3c0c0c5ec6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "17de8a5d-dd5d-4c34-92d5-23b63555cd56",
+        "email": "Jan_Hintz29@gmail.com",
+        "firstName": "Marianne",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96662251",
+        "tenantId": null
+      },
+      {
+        "reference": "178ad96c-8833-4093-9c78-2789ec86f322",
+        "email": "Lilian.Towne@hotmail.com",
+        "firstName": "Jade",
+        "lastName": "Mosciski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/88.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a6d5dcc2-3e60-4e49-ac73-fc26625fc94b",
+        "email": "Samara_Jenkins@gmail.com",
+        "firstName": "Parker",
+        "lastName": "Goodwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/776.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b55d1d87-c613-4a2a-922a-422ed4ba631e",
+        "email": "Maribel.Langosh@gmail.com",
+        "firstName": "Nedra",
+        "lastName": "Corkery",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/812.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7a77c127-98e0-4225-b208-ca6c83b3bd3d",
+        "email": "Avery18@yahoo.com",
+        "firstName": "Maxie",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24950593",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "isbn": [
+      {
+        "id": "10502449-8849-49fb-a1a9-62b167192168",
+        "created_at": "2023-08-10T10:42:09.262Z",
+        "updated_at": "2023-08-09T16:37:34.129Z",
+        "number": "978-0-306-40615-7"
+      },
+      {
+        "id": "de7d077f-18bd-4395-aed2-f75c27be261f",
+        "created_at": "2023-08-10T01:19:53.762Z",
+        "updated_at": "2023-08-10T10:29:19.751Z",
+        "number": "978-0-14-312755-0"
+      },
+      {
+        "id": "a40b8a11-cd88-4856-a8e2-8aa007e8e9e5",
+        "created_at": "2023-08-10T11:25:25.660Z",
+        "updated_at": "2023-08-09T15:11:14.304Z",
+        "number": "978-0-06-231609-7"
+      },
+      {
+        "id": "930b27ec-dd27-4c12-a038-b8c23260c84c",
+        "created_at": "2023-08-10T00:12:16.262Z",
+        "updated_at": "2023-08-09T15:17:28.245Z",
+        "number": "978-0-385-53785-8"
+      },
+      {
+        "id": "96d848e5-f826-4e47-a856-9286d6c27747",
+        "created_at": "2023-08-09T19:53:20.821Z",
+        "updated_at": "2023-08-09T12:14:06.014Z",
+        "number": "978-0-8129-9867-9"
+      }
+    ],
+    "book": [
+      {
+        "id": "53347e4d-503f-4b9e-a54d-88b53c45b85c",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "created_at": "2023-08-09T15:58:06.640Z",
+        "updated_at": "2023-08-10T10:36:40.877Z",
+        "isbn_id": "96d848e5-f826-4e47-a856-9286d6c27747",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "edfceeb7-4427-455b-82a7-b6b008ea3abe",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "created_at": "2023-08-10T11:35:21.480Z",
+        "updated_at": "2023-08-10T00:09:58.404Z",
+        "isbn_id": "930b27ec-dd27-4c12-a038-b8c23260c84c",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "633a0512-cfc1-4db6-a396-cd997a80d28b",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "created_at": "2023-08-10T09:21:21.356Z",
+        "updated_at": "2023-08-10T07:14:34.580Z",
+        "isbn_id": "930b27ec-dd27-4c12-a038-b8c23260c84c",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "e590d0eb-4627-4d02-a5a1-12aa2ed20da4",
+        "title": "1984",
+        "author": "George Orwell",
+        "created_at": "2023-08-09T21:12:30.235Z",
+        "updated_at": "2023-08-10T09:06:04.130Z",
+        "isbn_id": "de7d077f-18bd-4395-aed2-f75c27be261f",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "6f05638b-badd-4880-9aa0-9558d83523f0",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "created_at": "2023-08-10T03:37:16.147Z",
+        "updated_at": "2023-08-10T05:18:26.258Z",
+        "isbn_id": "930b27ec-dd27-4c12-a038-b8c23260c84c",
+        "library_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "6c170bc2-b200-45db-8bec-ec022283b79f",
+        "due_date": "2023-08-09T14:58:54.625Z",
+        "created_at": "2023-08-10T03:06:35.412Z",
+        "updated_at": "2023-08-09T16:32:11.960Z",
+        "book_id": "633a0512-cfc1-4db6-a396-cd997a80d28b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09cdae53-1582-42b2-af7d-889cbc20a918",
+        "due_date": "2023-08-09T14:50:50.874Z",
+        "created_at": "2023-08-09T16:53:16.345Z",
+        "updated_at": "2023-08-09T21:37:31.043Z",
+        "book_id": "e590d0eb-4627-4d02-a5a1-12aa2ed20da4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47db4a7d-8fc9-4677-bcb9-b062329d2271",
+        "due_date": "2023-08-09T14:27:29.617Z",
+        "created_at": "2023-08-09T19:01:02.184Z",
+        "updated_at": "2023-08-10T09:19:49.491Z",
+        "book_id": "633a0512-cfc1-4db6-a396-cd997a80d28b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ce7b02b-8514-4691-b2e1-ca2885604a4c",
+        "due_date": "2023-08-09T21:24:45.511Z",
+        "created_at": "2023-08-09T19:40:18.306Z",
+        "updated_at": "2023-08-10T02:14:58.375Z",
+        "book_id": "e590d0eb-4627-4d02-a5a1-12aa2ed20da4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0465083-4015-44a0-a204-a7ca56f1ae63",
+        "due_date": "2023-08-09T18:25:27.104Z",
+        "created_at": "2023-08-10T10:18:55.814Z",
+        "updated_at": "2023-08-10T02:18:29.937Z",
+        "book_id": "6f05638b-badd-4880-9aa0-9558d83523f0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "borrowing": [
+      {
+        "id": "18898349-cbbe-4a77-b84a-a2bcf0c54719",
+        "borrow_date": "2023-08-09T12:01:44.749Z",
+        "return_date": "2023-08-09T14:44:29.412Z",
+        "created_at": "2023-08-10T11:09:07.736Z",
+        "updated_at": "2023-08-09T16:34:39.085Z",
+        "book_id": "53347e4d-503f-4b9e-a54d-88b53c45b85c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a01142e-4713-44e6-86c6-55f7bc5dab4b",
+        "borrow_date": "2023-08-09T18:09:52.706Z",
+        "return_date": "2023-08-09T18:33:11.398Z",
+        "created_at": "2023-08-09T19:43:38.675Z",
+        "updated_at": "2023-08-10T02:46:44.167Z",
+        "book_id": "53347e4d-503f-4b9e-a54d-88b53c45b85c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38ba8759-9d26-4888-a847-372d47ea7619",
+        "borrow_date": "2023-08-09T12:00:55.156Z",
+        "return_date": "2023-08-09T15:23:57.405Z",
+        "created_at": "2023-08-09T22:25:25.102Z",
+        "updated_at": "2023-08-09T20:36:16.670Z",
+        "book_id": "633a0512-cfc1-4db6-a396-cd997a80d28b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d4c1694-0079-44ee-83f0-6e8fdc62df2b",
+        "borrow_date": "2023-08-10T01:05:39.973Z",
+        "return_date": "2023-08-10T11:02:57.524Z",
+        "created_at": "2023-08-09T21:05:21.073Z",
+        "updated_at": "2023-08-09T11:51:09.206Z",
+        "book_id": "edfceeb7-4427-455b-82a7-b6b008ea3abe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb7358fb-9706-466f-bac7-33dd13082533",
+        "borrow_date": "2023-08-09T19:47:10.492Z",
+        "return_date": "2023-08-09T23:29:52.507Z",
+        "created_at": "2023-08-10T07:29:47.936Z",
+        "updated_at": "2023-08-09T20:18:40.011Z",
+        "book_id": "e590d0eb-4627-4d02-a5a1-12aa2ed20da4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4af3614c-7105-4198-8ed6-dc69ec1e5256",
+        "email": "Reta51@hotmail.com",
+        "firstName": "Missouri",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29827152",
+        "tenantId": null
+      },
+      {
+        "reference": "115e487e-9360-4aa9-914e-af6f682f14a3",
+        "email": "Pink.Flatley@hotmail.com",
+        "firstName": "Hilton",
+        "lastName": "Turcotte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/253.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1ddb1da0-021a-414a-8015-c0b99b6341e6",
+        "email": "Raymond_DAmore@hotmail.com",
+        "firstName": "Macey",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74168809",
+        "tenantId": null
+      },
+      {
+        "reference": "47f53985-4913-4cef-a6e2-77d87eb9231a",
+        "email": "Thea.Parker4@hotmail.com",
+        "firstName": "Lazaro",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/919.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "97d5df87-8460-4c60-a382-edb364b88633",
+        "email": "Mekhi36@yahoo.com",
+        "firstName": "Annetta",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/639.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "isbn": [
+      {
+        "id": "706d9e31-3d78-4096-ab66-980b94ce8ba6",
+        "created_at": "2023-08-10T08:03:20.155Z",
+        "updated_at": "2023-08-10T10:16:09.223Z",
+        "number": "978-0-306-40615-7"
+      },
+      {
+        "id": "aa2f2335-6e2d-47f7-9137-e159a8d957b1",
+        "created_at": "2023-08-10T08:55:15.946Z",
+        "updated_at": "2023-08-10T04:02:29.010Z",
+        "number": "978-0-14-312755-0"
+      },
+      {
+        "id": "d3e39ec3-266a-471e-b2a4-5d61daf61e82",
+        "created_at": "2023-08-09T18:11:36.564Z",
+        "updated_at": "2023-08-10T01:08:56.083Z",
+        "number": "978-0-06-231609-7"
+      },
+      {
+        "id": "e00f0b45-7f64-465f-b854-b845cab8b940",
+        "created_at": "2023-08-10T09:15:30.111Z",
+        "updated_at": "2023-08-10T10:49:56.313Z",
+        "number": "978-0-385-53785-8"
+      },
+      {
+        "id": "4018af09-f28f-4e38-9881-08bf4f89ad57",
+        "created_at": "2023-08-10T07:08:29.255Z",
+        "updated_at": "2023-08-10T07:59:37.049Z",
+        "number": "978-0-8129-9867-9"
+      }
+    ],
+    "book": [
+      {
+        "id": "01d89c06-fef7-4334-bf60-495202582700",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "created_at": "2023-08-10T09:51:52.990Z",
+        "updated_at": "2023-08-10T10:54:37.636Z",
+        "isbn_id": "d3e39ec3-266a-471e-b2a4-5d61daf61e82",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "18a6606b-7fd7-4293-b839-6b249adc3af4",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "created_at": "2023-08-09T11:58:12.988Z",
+        "updated_at": "2023-08-10T07:16:18.728Z",
+        "isbn_id": "e00f0b45-7f64-465f-b854-b845cab8b940",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "084c2863-bacc-44e4-8697-b2ecb03d587b",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "created_at": "2023-08-09T14:17:48.401Z",
+        "updated_at": "2023-08-09T20:16:57.132Z",
+        "isbn_id": "4018af09-f28f-4e38-9881-08bf4f89ad57",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "4cf317da-75e1-49da-8a27-34f8576a1889",
+        "title": "1984",
+        "author": "George Orwell",
+        "created_at": "2023-08-09T15:56:00.538Z",
+        "updated_at": "2023-08-09T20:46:45.230Z",
+        "isbn_id": "d3e39ec3-266a-471e-b2a4-5d61daf61e82",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "ed8a7b82-3daf-4342-b7f7-aa11fb0134f8",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "created_at": "2023-08-09T21:36:44.674Z",
+        "updated_at": "2023-08-10T01:37:32.993Z",
+        "isbn_id": "aa2f2335-6e2d-47f7-9137-e159a8d957b1",
+        "library_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "a13d540d-5fd8-4a25-be00-64a978ccf939",
+        "due_date": "2023-08-09T17:25:45.238Z",
+        "created_at": "2023-08-10T02:46:24.510Z",
+        "updated_at": "2023-08-09T14:41:29.671Z",
+        "book_id": "ed8a7b82-3daf-4342-b7f7-aa11fb0134f8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c623b958-6ee2-42d0-934c-684c0c1a6575",
+        "due_date": "2023-08-09T13:02:36.830Z",
+        "created_at": "2023-08-10T11:12:27.480Z",
+        "updated_at": "2023-08-10T08:27:27.531Z",
+        "book_id": "ed8a7b82-3daf-4342-b7f7-aa11fb0134f8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "caabd497-941a-40ed-9710-4758cf5728d5",
+        "due_date": "2023-08-09T17:47:33.400Z",
+        "created_at": "2023-08-10T02:56:36.844Z",
+        "updated_at": "2023-08-09T16:58:21.717Z",
+        "book_id": "4cf317da-75e1-49da-8a27-34f8576a1889",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "210c2ee5-10cc-46dc-af41-9128c372ade0",
+        "due_date": "2023-08-09T21:46:18.147Z",
+        "created_at": "2023-08-09T21:19:55.287Z",
+        "updated_at": "2023-08-10T01:17:37.059Z",
+        "book_id": "01d89c06-fef7-4334-bf60-495202582700",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba301e26-08da-4b16-be3d-dd6b0348c110",
+        "due_date": "2023-08-09T12:16:36.397Z",
+        "created_at": "2023-08-09T14:03:31.482Z",
+        "updated_at": "2023-08-10T05:23:48.920Z",
+        "book_id": "084c2863-bacc-44e4-8697-b2ecb03d587b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "borrowing": [
+      {
+        "id": "a0380a79-e7bd-4847-b4ed-7c88fc2e59e9",
+        "borrow_date": "2023-08-09T23:31:44.727Z",
+        "return_date": "2023-08-09T14:33:04.633Z",
+        "created_at": "2023-08-10T10:57:09.814Z",
+        "updated_at": "2023-08-09T12:31:52.715Z",
+        "book_id": "01d89c06-fef7-4334-bf60-495202582700",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8d85965-b01a-4a31-9e8c-95d2a8aa6f50",
+        "borrow_date": "2023-08-09T13:39:49.186Z",
+        "return_date": "2023-08-09T23:57:45.171Z",
+        "created_at": "2023-08-09T12:30:13.089Z",
+        "updated_at": "2023-08-09T19:14:19.394Z",
+        "book_id": "01d89c06-fef7-4334-bf60-495202582700",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee814145-5495-4dd0-b079-2b5d5019d9c6",
+        "borrow_date": "2023-08-10T08:57:53.454Z",
+        "return_date": "2023-08-10T05:16:06.485Z",
+        "created_at": "2023-08-10T11:07:45.922Z",
+        "updated_at": "2023-08-10T06:01:34.347Z",
+        "book_id": "18a6606b-7fd7-4293-b839-6b249adc3af4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8e40417-5cfe-4d21-bd42-75559921fd04",
+        "borrow_date": "2023-08-10T03:55:19.408Z",
+        "return_date": "2023-08-09T14:06:19.543Z",
+        "created_at": "2023-08-09T19:38:16.840Z",
+        "updated_at": "2023-08-10T00:50:10.671Z",
+        "book_id": "18a6606b-7fd7-4293-b839-6b249adc3af4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b08d8e9-d855-4ef1-9c0b-577e4e550150",
+        "borrow_date": "2023-08-10T07:09:24.202Z",
+        "return_date": "2023-08-09T22:40:05.782Z",
+        "created_at": "2023-08-10T06:32:27.834Z",
+        "updated_at": "2023-08-09T17:06:32.948Z",
+        "book_id": "18a6606b-7fd7-4293-b839-6b249adc3af4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "26ede4f9-b8c1-4dd3-a574-6de1ea414824",
+        "email": "Jesse_Connelly3@yahoo.com",
+        "firstName": "Dorris",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46645401",
+        "tenantId": null
+      },
+      {
+        "reference": "24ee5c1f-98f4-41cc-bf57-10efdb37281a",
+        "email": "Ignacio.Ruecker@hotmail.com",
+        "firstName": "Helene",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/628.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b2eea012-d0ef-4f4f-b867-49c7d045543e",
+        "email": "Dave_Kutch-Hettinger@yahoo.com",
+        "firstName": "Candido",
+        "lastName": "Casper-Wisozk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49727889",
+        "tenantId": null
+      },
+      {
+        "reference": "281824bb-cfbc-49ab-9d89-4b90894f2d36",
+        "email": "Darrel39@gmail.com",
+        "firstName": "Bridie",
+        "lastName": "Morissette",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44369451",
+        "tenantId": null
+      },
+      {
+        "reference": "cb07dd8f-7eb8-47d5-b904-1bc225b26045",
+        "email": "Marjorie_Russel@hotmail.com",
+        "firstName": "May",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73608599",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "isbn": [
+      {
+        "id": "2fc988bd-35b2-4b7a-9177-70fa1cb270ec",
+        "created_at": "2023-08-09T18:17:40.954Z",
+        "updated_at": "2023-08-10T07:37:55.585Z",
+        "number": "978-0-306-40615-7"
+      },
+      {
+        "id": "4c05370a-53ca-4c78-9690-c8aa729bbd95",
+        "created_at": "2023-08-10T04:47:21.109Z",
+        "updated_at": "2023-08-10T05:03:44.395Z",
+        "number": "978-0-14-312755-0"
+      },
+      {
+        "id": "1b22f97e-59ea-4a01-9449-454096415001",
+        "created_at": "2023-08-09T15:53:35.176Z",
+        "updated_at": "2023-08-09T15:58:23.824Z",
+        "number": "978-0-06-231609-7"
+      },
+      {
+        "id": "6c01dd05-82c4-4712-b4e2-7ad49c5d0170",
+        "created_at": "2023-08-09T18:02:28.054Z",
+        "updated_at": "2023-08-09T11:47:19.855Z",
+        "number": "978-0-385-53785-8"
+      },
+      {
+        "id": "f9533ba2-f90c-465e-a085-dbbd48c6b502",
+        "created_at": "2023-08-10T02:08:28.870Z",
+        "updated_at": "2023-08-10T09:02:50.508Z",
+        "number": "978-0-8129-9867-9"
+      }
+    ],
+    "book": [
+      {
+        "id": "cd284b69-c9d4-498c-84e8-5d5233733a84",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "created_at": "2023-08-10T10:03:07.839Z",
+        "updated_at": "2023-08-09T21:54:44.850Z",
+        "isbn_id": "4c05370a-53ca-4c78-9690-c8aa729bbd95",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "a7684335-79eb-4abc-90c6-d0855adef022",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "created_at": "2023-08-09T17:01:09.339Z",
+        "updated_at": "2023-08-10T06:33:58.181Z",
+        "isbn_id": "6c01dd05-82c4-4712-b4e2-7ad49c5d0170",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "faec6685-817b-40ba-b1ed-6da3b0bcdfef",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "created_at": "2023-08-10T06:03:01.077Z",
+        "updated_at": "2023-08-10T05:15:59.554Z",
+        "isbn_id": "1b22f97e-59ea-4a01-9449-454096415001",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "175e97be-e125-4f6c-b78f-9887c94afcfb",
+        "title": "1984",
+        "author": "George Orwell",
+        "created_at": "2023-08-09T12:11:56.030Z",
+        "updated_at": "2023-08-10T09:31:44.984Z",
+        "isbn_id": "4c05370a-53ca-4c78-9690-c8aa729bbd95",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "3f75447d-2953-4988-aabb-3963856a406a",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "created_at": "2023-08-09T22:46:14.731Z",
+        "updated_at": "2023-08-09T20:20:35.483Z",
+        "isbn_id": "1b22f97e-59ea-4a01-9449-454096415001",
+        "library_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "77e0e6b3-5a34-46a9-90e9-7e009b001174",
+        "due_date": "2023-08-10T00:52:15.714Z",
+        "created_at": "2023-08-10T07:45:08.622Z",
+        "updated_at": "2023-08-09T18:59:13.204Z",
+        "book_id": "faec6685-817b-40ba-b1ed-6da3b0bcdfef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56025059-0e01-4a84-9134-f5281ec7c1cd",
+        "due_date": "2023-08-09T20:40:22.061Z",
+        "created_at": "2023-08-10T06:23:55.976Z",
+        "updated_at": "2023-08-09T18:38:29.227Z",
+        "book_id": "a7684335-79eb-4abc-90c6-d0855adef022",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09ba676c-a120-454e-aee8-061a830c6161",
+        "due_date": "2023-08-10T02:04:22.903Z",
+        "created_at": "2023-08-10T02:55:49.255Z",
+        "updated_at": "2023-08-10T04:10:45.389Z",
+        "book_id": "3f75447d-2953-4988-aabb-3963856a406a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64e0f90e-e6dd-4cc2-99e6-f406862ca1da",
+        "due_date": "2023-08-09T20:32:26.921Z",
+        "created_at": "2023-08-10T08:04:54.864Z",
+        "updated_at": "2023-08-10T04:13:56.309Z",
+        "book_id": "a7684335-79eb-4abc-90c6-d0855adef022",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "230ffd31-eb79-4921-80a0-caa624d1d228",
+        "due_date": "2023-08-09T13:14:49.799Z",
+        "created_at": "2023-08-09T23:08:14.839Z",
+        "updated_at": "2023-08-09T18:56:29.882Z",
+        "book_id": "175e97be-e125-4f6c-b78f-9887c94afcfb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "borrowing": [
+      {
+        "id": "0473b4e7-34e6-4f95-a188-7287a14ed853",
+        "borrow_date": "2023-08-10T10:07:32.095Z",
+        "return_date": "2023-08-09T17:58:22.432Z",
+        "created_at": "2023-08-10T05:33:16.229Z",
+        "updated_at": "2023-08-09T12:08:37.919Z",
+        "book_id": "175e97be-e125-4f6c-b78f-9887c94afcfb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "527f461b-ad66-404b-af43-19b57f2c96b8",
+        "borrow_date": "2023-08-09T13:15:01.024Z",
+        "return_date": "2023-08-10T00:16:11.853Z",
+        "created_at": "2023-08-10T05:00:33.267Z",
+        "updated_at": "2023-08-10T08:54:26.045Z",
+        "book_id": "175e97be-e125-4f6c-b78f-9887c94afcfb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e8bac88-8ab7-4921-8f5c-ebb543ce674b",
+        "borrow_date": "2023-08-10T05:21:02.958Z",
+        "return_date": "2023-08-09T17:45:38.682Z",
+        "created_at": "2023-08-09T16:46:39.583Z",
+        "updated_at": "2023-08-09T22:52:18.738Z",
+        "book_id": "faec6685-817b-40ba-b1ed-6da3b0bcdfef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44784082-1a3e-4481-9a01-711217cce38e",
+        "borrow_date": "2023-08-10T10:44:34.073Z",
+        "return_date": "2023-08-10T10:49:42.370Z",
+        "created_at": "2023-08-09T22:17:52.900Z",
+        "updated_at": "2023-08-09T21:08:06.951Z",
+        "book_id": "3f75447d-2953-4988-aabb-3963856a406a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b96ab3c-0403-4d53-9274-72fc74e3737c",
+        "borrow_date": "2023-08-09T20:06:30.366Z",
+        "return_date": "2023-08-10T03:05:28.271Z",
+        "created_at": "2023-08-10T09:34:45.801Z",
+        "updated_at": "2023-08-10T03:46:16.082Z",
+        "book_id": "175e97be-e125-4f6c-b78f-9887c94afcfb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b9b6eea1-521a-4a2a-9b70-df6181d92e35",
+        "email": "Tessie67@gmail.com",
+        "firstName": "Marvin",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1078.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bc2388f4-4990-4f0a-b80e-1f1f30edc431",
+        "email": "Odell.Bechtelar@yahoo.com",
+        "firstName": "Gerard",
+        "lastName": "Keeling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49934589",
+        "tenantId": null
+      },
+      {
+        "reference": "89b159cc-2c9a-49b5-a511-584dbc0556d5",
+        "email": "Alexys91@gmail.com",
+        "firstName": "Karson",
+        "lastName": "Howell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17810891",
+        "tenantId": null
+      },
+      {
+        "reference": "413dd830-c809-41ca-9b37-71e3da505f68",
+        "email": "Brielle_Blanda50@hotmail.com",
+        "firstName": "Neva",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56898222",
+        "tenantId": null
+      },
+      {
+        "reference": "72892f25-6514-4709-8598-9a92f8101d1e",
+        "email": "Nakia.Altenwerth@yahoo.com",
+        "firstName": "Alessandra",
+        "lastName": "Beer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/12.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "isbn": [
+      {
+        "id": "ebf865aa-033f-47a8-a4d2-d2c70302aa22",
+        "created_at": "2023-08-09T14:21:36.822Z",
+        "updated_at": "2023-08-09T22:24:13.727Z",
+        "number": "978-0-306-40615-7"
+      },
+      {
+        "id": "adca3fb9-c818-430c-9870-fb98deea8256",
+        "created_at": "2023-08-10T05:52:10.233Z",
+        "updated_at": "2023-08-09T22:10:28.681Z",
+        "number": "978-0-14-312755-0"
+      },
+      {
+        "id": "42301f74-0667-4ac9-98a1-23755d3e86a6",
+        "created_at": "2023-08-09T22:49:17.669Z",
+        "updated_at": "2023-08-10T08:07:14.018Z",
+        "number": "978-0-06-231609-7"
+      },
+      {
+        "id": "8b38cb1a-ad48-442a-8a78-b83128566a02",
+        "created_at": "2023-08-09T13:08:25.802Z",
+        "updated_at": "2023-08-09T15:23:29.445Z",
+        "number": "978-0-385-53785-8"
+      },
+      {
+        "id": "40f1ad63-375c-4efc-867f-ae7f476568d1",
+        "created_at": "2023-08-09T14:35:00.850Z",
+        "updated_at": "2023-08-09T17:36:02.779Z",
+        "number": "978-0-8129-9867-9"
+      }
+    ],
+    "book": [
+      {
+        "id": "89cd87af-e5d4-47a9-8255-1a72fdca642e",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "created_at": "2023-08-10T09:45:15.895Z",
+        "updated_at": "2023-08-10T05:22:00.809Z",
+        "isbn_id": "adca3fb9-c818-430c-9870-fb98deea8256",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "5b770f09-3bec-4d7f-97be-a459517e3557",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "created_at": "2023-08-10T00:32:25.151Z",
+        "updated_at": "2023-08-10T07:16:46.309Z",
+        "isbn_id": "ebf865aa-033f-47a8-a4d2-d2c70302aa22",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "02f486fd-ada6-4c10-9564-97340cd4524b",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "created_at": "2023-08-10T05:38:54.839Z",
+        "updated_at": "2023-08-09T23:28:02.721Z",
+        "isbn_id": "ebf865aa-033f-47a8-a4d2-d2c70302aa22",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "4a5ec374-9f9b-487d-8414-c05c0e13a2ea",
+        "title": "1984",
+        "author": "George Orwell",
+        "created_at": "2023-08-10T04:52:24.115Z",
+        "updated_at": "2023-08-10T05:06:54.759Z",
+        "isbn_id": "8b38cb1a-ad48-442a-8a78-b83128566a02",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "7c8ca2a0-5b26-4dd8-9c18-6d468eb8562a",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "created_at": "2023-08-09T14:30:42.017Z",
+        "updated_at": "2023-08-09T12:32:32.890Z",
+        "isbn_id": "adca3fb9-c818-430c-9870-fb98deea8256",
+        "library_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "05f56c52-b26e-4df2-95ca-242ac3e7307e",
+        "due_date": "2023-08-09T19:23:32.883Z",
+        "created_at": "2023-08-10T01:58:10.292Z",
+        "updated_at": "2023-08-10T08:46:32.726Z",
+        "book_id": "7c8ca2a0-5b26-4dd8-9c18-6d468eb8562a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8592177d-19ad-4259-8bd0-08707ec0f072",
+        "due_date": "2023-08-10T02:55:32.040Z",
+        "created_at": "2023-08-09T15:47:13.110Z",
+        "updated_at": "2023-08-10T08:04:43.845Z",
+        "book_id": "02f486fd-ada6-4c10-9564-97340cd4524b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2966da09-5dbd-4ef5-9266-9b6514daae04",
+        "due_date": "2023-08-10T04:18:00.303Z",
+        "created_at": "2023-08-10T06:28:44.359Z",
+        "updated_at": "2023-08-10T09:28:23.486Z",
+        "book_id": "5b770f09-3bec-4d7f-97be-a459517e3557",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4cdddbed-8a95-4c07-8482-23acd5ce9d98",
+        "due_date": "2023-08-09T11:58:18.650Z",
+        "created_at": "2023-08-10T05:12:44.942Z",
+        "updated_at": "2023-08-10T02:25:17.688Z",
+        "book_id": "4a5ec374-9f9b-487d-8414-c05c0e13a2ea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90df5274-8f50-4c2f-a196-f6f32a7adc0d",
+        "due_date": "2023-08-09T19:30:55.978Z",
+        "created_at": "2023-08-10T11:06:59.012Z",
+        "updated_at": "2023-08-09T15:06:35.779Z",
+        "book_id": "4a5ec374-9f9b-487d-8414-c05c0e13a2ea",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "borrowing": [
+      {
+        "id": "41c934fa-6f52-47e4-89ae-b278e74dbe97",
+        "borrow_date": "2023-08-09T22:40:07.753Z",
+        "return_date": "2023-08-09T12:33:18.788Z",
+        "created_at": "2023-08-09T20:42:22.151Z",
+        "updated_at": "2023-08-09T13:01:11.055Z",
+        "book_id": "02f486fd-ada6-4c10-9564-97340cd4524b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d3602a5-95e1-44a0-bc42-e18da29feb63",
+        "borrow_date": "2023-08-10T09:48:59.186Z",
+        "return_date": "2023-08-09T13:22:33.445Z",
+        "created_at": "2023-08-10T05:22:22.390Z",
+        "updated_at": "2023-08-10T09:32:36.190Z",
+        "book_id": "4a5ec374-9f9b-487d-8414-c05c0e13a2ea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a96173b-fcbe-4f5e-a2c8-c16a8115e048",
+        "borrow_date": "2023-08-10T05:15:22.827Z",
+        "return_date": "2023-08-10T09:44:51.304Z",
+        "created_at": "2023-08-09T21:28:25.177Z",
+        "updated_at": "2023-08-09T14:20:45.380Z",
+        "book_id": "02f486fd-ada6-4c10-9564-97340cd4524b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23da1480-04ad-440b-83ca-c790ef467ee4",
+        "borrow_date": "2023-08-10T08:15:36.050Z",
+        "return_date": "2023-08-10T02:17:08.602Z",
+        "created_at": "2023-08-10T08:06:06.874Z",
+        "updated_at": "2023-08-09T13:35:55.949Z",
+        "book_id": "4a5ec374-9f9b-487d-8414-c05c0e13a2ea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a47f781d-a177-442f-9e3e-35bd08643547",
+        "borrow_date": "2023-08-09T22:45:39.266Z",
+        "return_date": "2023-08-09T12:46:58.449Z",
+        "created_at": "2023-08-10T10:59:42.917Z",
+        "updated_at": "2023-08-10T08:17:01.865Z",
+        "book_id": "89cd87af-e5d4-47a9-8255-1a72fdca642e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7d69c0a8-a2fb-4e9a-a440-aedd3cfff8e6",
+        "email": "Tevin_Schuster@gmail.com",
+        "firstName": "Nikki",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16430171",
+        "tenantId": null
+      },
+      {
+        "reference": "77e7397f-b56e-46c5-aca9-adc1787f5ca2",
+        "email": "Marquis40@hotmail.com",
+        "firstName": "Joana",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/78.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4c7eb898-abaa-4a0d-80ad-bd20b70fac3f",
+        "email": "Betty58@yahoo.com",
+        "firstName": "Ignacio",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1140.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9c98824d-e0ec-4992-9a81-4c95f39b46b8",
+        "email": "Guadalupe64@yahoo.com",
+        "firstName": "Rosa",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74086120",
+        "tenantId": null
+      },
+      {
+        "reference": "a6daeb0c-24f1-4c1a-afa5-9256bae0e814",
+        "email": "Cassandre.Beahan@yahoo.com",
+        "firstName": "Ramon",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/551.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "isbn": [
+      {
+        "id": "b6f360e4-5233-4ecd-8472-b4d463b53b0f",
+        "created_at": "2023-08-10T11:07:59.364Z",
+        "updated_at": "2023-08-09T17:38:24.744Z",
+        "number": "978-0-306-40615-7"
+      },
+      {
+        "id": "c957a322-57fe-4102-8023-8ce4dc26b655",
+        "created_at": "2023-08-10T06:15:55.868Z",
+        "updated_at": "2023-08-10T08:22:21.042Z",
+        "number": "978-0-14-312755-0"
+      },
+      {
+        "id": "e21b0596-ea3a-499d-b12a-c53f88439f68",
+        "created_at": "2023-08-10T06:32:24.117Z",
+        "updated_at": "2023-08-09T18:53:12.654Z",
+        "number": "978-0-06-231609-7"
+      },
+      {
+        "id": "ad6c5175-ae4c-4f73-bf25-225eb6be8329",
+        "created_at": "2023-08-09T16:38:54.159Z",
+        "updated_at": "2023-08-09T16:09:28.425Z",
+        "number": "978-0-385-53785-8"
+      },
+      {
+        "id": "5242ea26-03dc-406c-bb29-bf986178ad0f",
+        "created_at": "2023-08-09T23:56:29.009Z",
+        "updated_at": "2023-08-10T09:20:33.472Z",
+        "number": "978-0-8129-9867-9"
+      }
+    ],
+    "book": [
+      {
+        "id": "0dc787d6-3c75-49e8-b538-e3cc82391a72",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "created_at": "2023-08-09T13:31:41.232Z",
+        "updated_at": "2023-08-09T22:13:58.581Z",
+        "isbn_id": "ad6c5175-ae4c-4f73-bf25-225eb6be8329",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "ce3397a0-dfd4-4ebd-a781-334f3ef8caa0",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "created_at": "2023-08-09T12:33:01.504Z",
+        "updated_at": "2023-08-10T05:47:57.013Z",
+        "isbn_id": "c957a322-57fe-4102-8023-8ce4dc26b655",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "c37e05db-abf3-4f2c-ba89-fdd7cd4e6c71",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "created_at": "2023-08-10T02:16:28.319Z",
+        "updated_at": "2023-08-09T20:53:40.846Z",
+        "isbn_id": "5242ea26-03dc-406c-bb29-bf986178ad0f",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "86ba4452-44ed-4838-8b6a-f4b5c550edb4",
+        "title": "1984",
+        "author": "George Orwell",
+        "created_at": "2023-08-10T09:55:35.514Z",
+        "updated_at": "2023-08-10T10:17:08.770Z",
+        "isbn_id": "b6f360e4-5233-4ecd-8472-b4d463b53b0f",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "ffcccf51-c859-411c-841c-7c93c2a172ea",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "created_at": "2023-08-10T07:37:52.302Z",
+        "updated_at": "2023-08-10T06:14:31.100Z",
+        "isbn_id": "ad6c5175-ae4c-4f73-bf25-225eb6be8329",
+        "library_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "593344ab-520c-45c9-a415-4e65fc6928de",
+        "due_date": "2023-08-10T09:44:50.389Z",
+        "created_at": "2023-08-10T07:07:54.508Z",
+        "updated_at": "2023-08-09T21:29:22.069Z",
+        "book_id": "c37e05db-abf3-4f2c-ba89-fdd7cd4e6c71",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ef94574-2661-47f9-b98d-26a4882417b5",
+        "due_date": "2023-08-09T14:43:18.285Z",
+        "created_at": "2023-08-10T03:30:30.638Z",
+        "updated_at": "2023-08-10T06:59:17.562Z",
+        "book_id": "0dc787d6-3c75-49e8-b538-e3cc82391a72",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da382c09-c589-4186-b476-b80dea6ba872",
+        "due_date": "2023-08-09T21:12:00.166Z",
+        "created_at": "2023-08-09T18:43:23.418Z",
+        "updated_at": "2023-08-10T04:56:33.334Z",
+        "book_id": "ffcccf51-c859-411c-841c-7c93c2a172ea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4710447-f71a-401b-8475-870bd03c5320",
+        "due_date": "2023-08-09T14:16:37.837Z",
+        "created_at": "2023-08-09T17:10:03.375Z",
+        "updated_at": "2023-08-09T13:50:05.799Z",
+        "book_id": "c37e05db-abf3-4f2c-ba89-fdd7cd4e6c71",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d384bb84-84c8-4eee-998b-c1631cc202f9",
+        "due_date": "2023-08-10T08:58:05.394Z",
+        "created_at": "2023-08-09T14:30:34.837Z",
+        "updated_at": "2023-08-09T17:19:30.338Z",
+        "book_id": "ffcccf51-c859-411c-841c-7c93c2a172ea",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "borrowing": [
+      {
+        "id": "6c2193cd-06fc-4d33-ad0d-6f4380bea752",
+        "borrow_date": "2023-08-09T21:54:46.485Z",
+        "return_date": "2023-08-09T19:38:14.646Z",
+        "created_at": "2023-08-10T08:25:04.432Z",
+        "updated_at": "2023-08-09T15:51:46.467Z",
+        "book_id": "ffcccf51-c859-411c-841c-7c93c2a172ea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c43831f-89da-4486-adde-a95073cb688a",
+        "borrow_date": "2023-08-09T19:41:07.716Z",
+        "return_date": "2023-08-09T15:05:36.527Z",
+        "created_at": "2023-08-09T23:35:57.578Z",
+        "updated_at": "2023-08-10T00:35:42.190Z",
+        "book_id": "ce3397a0-dfd4-4ebd-a781-334f3ef8caa0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "316e0286-7579-40fd-a48a-d105a4ea5029",
+        "borrow_date": "2023-08-09T14:19:24.113Z",
+        "return_date": "2023-08-10T11:25:23.273Z",
+        "created_at": "2023-08-09T18:35:24.157Z",
+        "updated_at": "2023-08-09T23:16:56.036Z",
+        "book_id": "ce3397a0-dfd4-4ebd-a781-334f3ef8caa0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "114be6a7-2747-4eb0-b78b-0bcd52d22e81",
+        "borrow_date": "2023-08-10T08:56:27.846Z",
+        "return_date": "2023-08-10T02:05:14.561Z",
+        "created_at": "2023-08-09T14:29:10.213Z",
+        "updated_at": "2023-08-09T17:08:05.485Z",
+        "book_id": "ffcccf51-c859-411c-841c-7c93c2a172ea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9aeefa8b-2f71-42ea-a9fc-3c39f9fe4b59",
+        "borrow_date": "2023-08-10T02:46:52.692Z",
+        "return_date": "2023-08-10T06:42:38.259Z",
+        "created_at": "2023-08-10T03:30:55.317Z",
+        "updated_at": "2023-08-10T06:35:23.892Z",
+        "book_id": "ffcccf51-c859-411c-841c-7c93c2a172ea",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "968196f7-8213-4f99-94ff-1510e1d03874",
+        "email": "Elsie_Wunsch@yahoo.com",
+        "firstName": "Octavia",
+        "lastName": "Barton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/681.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "20975336-255a-4614-b08a-cb6cbd5174a1",
+        "email": "Kelli.Ferry79@hotmail.com",
+        "firstName": "Polly",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91838858",
+        "tenantId": null
+      },
+      {
+        "reference": "4bfa7eab-1fd3-481e-9151-2f6c733b0d4f",
+        "email": "Gladyce77@hotmail.com",
+        "firstName": "Hermann",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/663.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c5a9b903-7279-45c5-bbb1-e87f354b881a",
+        "email": "Sarai40@yahoo.com",
+        "firstName": "Billie",
+        "lastName": "Hyatt-Green",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/240.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8ff97adf-1858-4ce2-93df-82a94e47ce31",
+        "email": "Elva.Koelpin@gmail.com",
+        "firstName": "Mara",
+        "lastName": "Feeney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/277.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "isbn": [
+      {
+        "id": "9f66d84e-5fd3-4bdf-a704-587d38f58522",
+        "created_at": "2023-08-09T19:30:38.405Z",
+        "updated_at": "2023-08-09T12:55:29.340Z",
+        "number": "978-0-306-40615-7"
+      },
+      {
+        "id": "19bf34f4-8147-495e-bc6c-d61b45a68161",
+        "created_at": "2023-08-10T10:09:39.282Z",
+        "updated_at": "2023-08-09T22:50:16.991Z",
+        "number": "978-0-14-312755-0"
+      },
+      {
+        "id": "81c7d9b4-a2f4-4f78-a24e-58e40589d93d",
+        "created_at": "2023-08-09T22:23:17.550Z",
+        "updated_at": "2023-08-10T05:00:41.593Z",
+        "number": "978-0-06-231609-7"
+      },
+      {
+        "id": "03eacbcf-48ba-48bd-94e3-76c22aff72ff",
+        "created_at": "2023-08-09T13:46:04.762Z",
+        "updated_at": "2023-08-09T12:59:56.273Z",
+        "number": "978-0-385-53785-8"
+      },
+      {
+        "id": "1667adbd-a855-4b27-9f76-0f868d8ea72e",
+        "created_at": "2023-08-09T14:56:57.155Z",
+        "updated_at": "2023-08-10T05:26:39.298Z",
+        "number": "978-0-8129-9867-9"
+      }
+    ],
+    "book": [
+      {
+        "id": "1e188d7b-1d46-4146-9fe8-09c09a3f5ffa",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "created_at": "2023-08-09T14:48:25.937Z",
+        "updated_at": "2023-08-09T19:01:44.612Z",
+        "isbn_id": "19bf34f4-8147-495e-bc6c-d61b45a68161",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "3088ff05-d4a1-449b-90f7-d7bc624faa13",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "created_at": "2023-08-10T06:48:30.074Z",
+        "updated_at": "2023-08-09T22:39:55.793Z",
+        "isbn_id": "9f66d84e-5fd3-4bdf-a704-587d38f58522",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "ee8bf6c6-8313-404b-adb1-1cc32cddd4f9",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "created_at": "2023-08-09T23:39:56.718Z",
+        "updated_at": "2023-08-09T22:34:06.365Z",
+        "isbn_id": "1667adbd-a855-4b27-9f76-0f868d8ea72e",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "65a9245d-ac38-4382-ad41-607c27dac6c6",
+        "title": "1984",
+        "author": "George Orwell",
+        "created_at": "2023-08-10T00:55:18.165Z",
+        "updated_at": "2023-08-09T23:56:07.546Z",
+        "isbn_id": "1667adbd-a855-4b27-9f76-0f868d8ea72e",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "65ca97ce-7731-4a5c-8e20-69b7c1d8cfa7",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "created_at": "2023-08-09T18:54:42.469Z",
+        "updated_at": "2023-08-10T05:33:37.504Z",
+        "isbn_id": "81c7d9b4-a2f4-4f78-a24e-58e40589d93d",
+        "library_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "93486eff-ca46-4007-a19e-47c3a3ffecf6",
+        "due_date": "2023-08-09T20:53:51.179Z",
+        "created_at": "2023-08-09T14:52:40.555Z",
+        "updated_at": "2023-08-10T11:10:20.972Z",
+        "book_id": "65a9245d-ac38-4382-ad41-607c27dac6c6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d1644cc-1f9e-4ed9-96ea-f32a839c1427",
+        "due_date": "2023-08-09T23:05:54.315Z",
+        "created_at": "2023-08-09T15:28:44.626Z",
+        "updated_at": "2023-08-10T00:00:08.421Z",
+        "book_id": "3088ff05-d4a1-449b-90f7-d7bc624faa13",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c9bda81-23ef-4000-9b10-ebc4fb949dea",
+        "due_date": "2023-08-09T18:46:33.196Z",
+        "created_at": "2023-08-10T05:45:15.366Z",
+        "updated_at": "2023-08-10T03:21:28.743Z",
+        "book_id": "3088ff05-d4a1-449b-90f7-d7bc624faa13",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37c924d9-f80e-4e4b-9153-afe3e8a902e1",
+        "due_date": "2023-08-10T08:29:16.768Z",
+        "created_at": "2023-08-10T03:38:41.474Z",
+        "updated_at": "2023-08-10T02:26:32.479Z",
+        "book_id": "65a9245d-ac38-4382-ad41-607c27dac6c6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27ebbdf7-276b-4e6e-9c87-07f02f1fa4af",
+        "due_date": "2023-08-09T21:13:19.875Z",
+        "created_at": "2023-08-10T11:07:30.048Z",
+        "updated_at": "2023-08-10T10:00:27.708Z",
+        "book_id": "65ca97ce-7731-4a5c-8e20-69b7c1d8cfa7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "borrowing": [
+      {
+        "id": "b0707b81-da68-4bf1-983d-5d7484d48cf7",
+        "borrow_date": "2023-08-10T08:25:30.216Z",
+        "return_date": "2023-08-09T17:13:42.341Z",
+        "created_at": "2023-08-09T22:31:06.923Z",
+        "updated_at": "2023-08-10T07:08:16.918Z",
+        "book_id": "65ca97ce-7731-4a5c-8e20-69b7c1d8cfa7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20fe4d1a-2985-48d7-a1b7-391b30ee3af1",
+        "borrow_date": "2023-08-10T01:22:20.511Z",
+        "return_date": "2023-08-10T06:50:13.705Z",
+        "created_at": "2023-08-09T18:54:02.284Z",
+        "updated_at": "2023-08-10T01:09:02.014Z",
+        "book_id": "ee8bf6c6-8313-404b-adb1-1cc32cddd4f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ef6f388-7b07-4218-b145-6b73f863106a",
+        "borrow_date": "2023-08-09T22:40:36.912Z",
+        "return_date": "2023-08-10T00:56:23.119Z",
+        "created_at": "2023-08-10T06:22:47.912Z",
+        "updated_at": "2023-08-10T06:20:10.372Z",
+        "book_id": "65a9245d-ac38-4382-ad41-607c27dac6c6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4ec0c2d-9bb4-4e11-983f-d21ac3d5fee0",
+        "borrow_date": "2023-08-10T06:40:54.511Z",
+        "return_date": "2023-08-10T02:47:05.874Z",
+        "created_at": "2023-08-09T16:21:44.042Z",
+        "updated_at": "2023-08-10T05:56:10.125Z",
+        "book_id": "ee8bf6c6-8313-404b-adb1-1cc32cddd4f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dadbc785-6eb1-4d2e-b11f-2308a2b9e3e5",
+        "borrow_date": "2023-08-10T01:02:49.802Z",
+        "return_date": "2023-08-09T20:22:28.479Z",
+        "created_at": "2023-08-09T15:51:58.496Z",
+        "updated_at": "2023-08-10T11:27:45.520Z",
+        "book_id": "65ca97ce-7731-4a5c-8e20-69b7c1d8cfa7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "17d6d61d-3e6f-4567-be12-9dd3de9a2e6a",
+        "email": "Laurie.Wolf@yahoo.com",
+        "firstName": "Annetta",
+        "lastName": "Nolan-Luettgen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1001.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "21d4f056-3b97-409e-a3b1-287123179de3",
+        "email": "Aron.Mosciski@hotmail.com",
+        "firstName": "Dasia",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/411.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2a0fa84e-f7fc-4618-8c8d-85c8ddb470a8",
+        "email": "Kaley_Jaskolski88@gmail.com",
+        "firstName": "Lowell",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89492637",
+        "tenantId": null
+      },
+      {
+        "reference": "39819966-55bd-4251-a843-aafa34917811",
+        "email": "Katelynn51@gmail.com",
+        "firstName": "Arch",
+        "lastName": "King-O'Conner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69204910",
+        "tenantId": null
+      },
+      {
+        "reference": "6802139b-4c26-4505-8245-432f7b63e215",
+        "email": "Ara_Mohr@hotmail.com",
+        "firstName": "Ewell",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63166353",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "isbn": [
+      {
+        "id": "7fafcadf-c268-4518-89ad-6f0bda419231",
+        "created_at": "2023-08-09T14:13:10.544Z",
+        "updated_at": "2023-08-10T00:48:41.279Z",
+        "number": "978-0-306-40615-7"
+      },
+      {
+        "id": "d4dbb696-ef12-486a-a96c-07e849b1b21c",
+        "created_at": "2023-08-10T08:35:57.264Z",
+        "updated_at": "2023-08-10T07:56:28.160Z",
+        "number": "978-0-14-312755-0"
+      },
+      {
+        "id": "f06d66b0-7f84-4111-ba8b-af2133577d08",
+        "created_at": "2023-08-10T11:25:40.555Z",
+        "updated_at": "2023-08-10T10:43:42.569Z",
+        "number": "978-0-06-112008-4"
+      },
+      {
+        "id": "8b453fc7-c34a-4e83-bd07-5c7dcf7d957b",
+        "created_at": "2023-08-10T11:10:23.307Z",
+        "updated_at": "2023-08-09T14:05:58.071Z",
+        "number": "978-0-679-64299-2"
+      },
+      {
+        "id": "53cc70ca-e6d8-4207-b3d7-50c3a6bcb500",
+        "created_at": "2023-08-10T04:39:57.660Z",
+        "updated_at": "2023-08-10T06:48:06.152Z",
+        "number": "978-0-385-72170-2"
+      }
+    ],
+    "book": [
+      {
+        "id": "53a956a2-cd42-43dc-bcf9-a4847687e163",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "created_at": "2023-08-10T03:10:46.830Z",
+        "updated_at": "2023-08-09T21:53:20.564Z",
+        "isbn_id": "f06d66b0-7f84-4111-ba8b-af2133577d08",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "3ff9d27e-41ed-46af-9986-cef9d613b548",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "created_at": "2023-08-09T12:21:01.537Z",
+        "updated_at": "2023-08-10T06:46:44.673Z",
+        "isbn_id": "f06d66b0-7f84-4111-ba8b-af2133577d08",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "cfcb428e-b762-4eef-9dfa-805437f55ad2",
+        "title": "1984",
+        "author": "George Orwell",
+        "created_at": "2023-08-10T04:05:33.305Z",
+        "updated_at": "2023-08-09T15:26:10.595Z",
+        "isbn_id": "d4dbb696-ef12-486a-a96c-07e849b1b21c",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "a3c7e09f-3890-45e9-8537-4dc58f359002",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "created_at": "2023-08-09T19:31:23.762Z",
+        "updated_at": "2023-08-10T05:45:21.806Z",
+        "isbn_id": "53cc70ca-e6d8-4207-b3d7-50c3a6bcb500",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "a9c7fb2a-8b60-45f7-883a-c557e1a0d3de",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "created_at": "2023-08-09T22:35:51.518Z",
+        "updated_at": "2023-08-09T14:53:17.933Z",
+        "isbn_id": "7fafcadf-c268-4518-89ad-6f0bda419231",
+        "library_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "14ad3730-5b07-4bab-bcf5-05897407376c",
+        "due_date": "2023-08-10T04:27:17.645Z",
+        "created_at": "2023-08-10T09:16:00.949Z",
+        "updated_at": "2023-08-09T20:45:27.710Z",
+        "book_id": "a3c7e09f-3890-45e9-8537-4dc58f359002",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e4dc97c-c002-4c53-a301-6561c48d2ea5",
+        "due_date": "2023-08-09T15:09:06.648Z",
+        "created_at": "2023-08-10T06:49:47.257Z",
+        "updated_at": "2023-08-10T00:56:36.856Z",
+        "book_id": "cfcb428e-b762-4eef-9dfa-805437f55ad2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "970746b8-a149-4146-b7c7-509e0f3ffc28",
+        "due_date": "2023-08-10T09:06:26.916Z",
+        "created_at": "2023-08-10T01:35:01.362Z",
+        "updated_at": "2023-08-10T02:30:25.715Z",
+        "book_id": "a3c7e09f-3890-45e9-8537-4dc58f359002",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e34ca07-08a8-491c-a4df-00561da55388",
+        "due_date": "2023-08-09T22:26:10.953Z",
+        "created_at": "2023-08-09T21:05:47.041Z",
+        "updated_at": "2023-08-10T11:04:27.374Z",
+        "book_id": "a3c7e09f-3890-45e9-8537-4dc58f359002",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73da031e-a0df-42bc-901d-948802e1d2ee",
+        "due_date": "2023-08-09T23:32:40.094Z",
+        "created_at": "2023-08-10T00:15:15.715Z",
+        "updated_at": "2023-08-09T14:47:21.246Z",
+        "book_id": "cfcb428e-b762-4eef-9dfa-805437f55ad2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "borrowing": [
+      {
+        "id": "ce39b04f-4c75-4554-85dc-16324afcf0eb",
+        "borrow_date": "2023-08-10T11:01:29.924Z",
+        "return_date": "2023-08-10T10:40:23.978Z",
+        "created_at": "2023-08-09T16:39:25.380Z",
+        "updated_at": "2023-08-10T03:46:13.431Z",
+        "book_id": "53a956a2-cd42-43dc-bcf9-a4847687e163",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "844a2dc6-645b-4af9-ac3c-b90555e726e2",
+        "borrow_date": "2023-08-09T13:16:05.478Z",
+        "return_date": "2023-08-10T06:47:50.931Z",
+        "created_at": "2023-08-10T05:54:50.611Z",
+        "updated_at": "2023-08-10T07:26:43.376Z",
+        "book_id": "a3c7e09f-3890-45e9-8537-4dc58f359002",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1834fda-6716-4782-81fc-4996bcf75fda",
+        "borrow_date": "2023-08-09T11:38:13.282Z",
+        "return_date": "2023-08-10T01:42:10.857Z",
+        "created_at": "2023-08-10T10:27:28.640Z",
+        "updated_at": "2023-08-10T11:16:29.182Z",
+        "book_id": "a9c7fb2a-8b60-45f7-883a-c557e1a0d3de",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3355fac5-6dd4-4133-a929-f24d244a5245",
+        "borrow_date": "2023-08-09T13:28:40.987Z",
+        "return_date": "2023-08-10T07:31:44.886Z",
+        "created_at": "2023-08-09T21:49:32.012Z",
+        "updated_at": "2023-08-09T18:09:36.182Z",
+        "book_id": "3ff9d27e-41ed-46af-9986-cef9d613b548",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d77da83-e32f-4dae-b8b2-6a5f992f2da0",
+        "borrow_date": "2023-08-09T21:30:50.135Z",
+        "return_date": "2023-08-09T19:10:10.281Z",
+        "created_at": "2023-08-09T23:25:36.146Z",
+        "updated_at": "2023-08-09T21:57:17.382Z",
+        "book_id": "a3c7e09f-3890-45e9-8537-4dc58f359002",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "dfe1a32b-96c2-471e-b270-5fc53b83da0d",
+        "email": "Elissa46@gmail.com",
+        "firstName": "Maude",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/80.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dfcfa000-949c-497e-bc85-7a7b82ec2324",
+        "email": "Michaela26@hotmail.com",
+        "firstName": "Norberto",
+        "lastName": "Anderson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/438.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6cc8c4cd-e28b-4a17-9740-30df70f46357",
+        "email": "Piper44@hotmail.com",
+        "firstName": "Destiny",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12740624",
+        "tenantId": null
+      },
+      {
+        "reference": "2f3cb68e-540c-4deb-91f1-ba9cd892ce75",
+        "email": "Holden_Stanton86@yahoo.com",
+        "firstName": "Ewell",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1182.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e3916214-22c6-4cdc-aecb-fd1d2a8df6dc",
+        "email": "Granville21@yahoo.com",
+        "firstName": "Linda",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72860818",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "isbn": [
+      {
+        "id": "2c09e231-36b0-4fc4-88cf-f4d1bcb74126",
+        "created_at": "2023-08-10T08:18:45.849Z",
+        "updated_at": "2023-08-09T12:19:35.298Z",
+        "number": "978-0-306-40615-7"
+      },
+      {
+        "id": "07ed034c-598d-4476-a5fe-19cc3d41ddd9",
+        "created_at": "2023-08-09T19:11:35.938Z",
+        "updated_at": "2023-08-10T04:02:10.625Z",
+        "number": "978-0-14-312755-0"
+      },
+      {
+        "id": "3dce921b-c7dd-4077-a557-f249efaab83b",
+        "created_at": "2023-08-10T01:43:24.236Z",
+        "updated_at": "2023-08-10T02:19:36.161Z",
+        "number": "978-0-06-231609-7"
+      },
+      {
+        "id": "a5ee3237-7936-41e7-9783-224b3dabef16",
+        "created_at": "2023-08-09T17:58:00.964Z",
+        "updated_at": "2023-08-09T22:40:04.871Z",
+        "number": "978-0-385-53785-8"
+      },
+      {
+        "id": "8ab99210-2a54-4aa4-a0e8-6df6e3f20136",
+        "created_at": "2023-08-10T07:53:45.612Z",
+        "updated_at": "2023-08-10T08:39:47.315Z",
+        "number": "978-0-8129-9867-9"
+      }
+    ],
+    "book": [
+      {
+        "id": "0d9de531-8a20-467d-b30a-099a7ce6f747",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "created_at": "2023-08-10T03:59:19.610Z",
+        "updated_at": "2023-08-10T09:25:40.840Z",
+        "isbn_id": "3dce921b-c7dd-4077-a557-f249efaab83b",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "fea7eddf-5cc7-46d4-bf8c-f7cfb9387ed4",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "created_at": "2023-08-09T23:54:16.338Z",
+        "updated_at": "2023-08-10T09:08:32.369Z",
+        "isbn_id": "8ab99210-2a54-4aa4-a0e8-6df6e3f20136",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "1a844683-fdc8-43fb-ab40-27ecbe7b363b",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "created_at": "2023-08-09T23:07:41.252Z",
+        "updated_at": "2023-08-10T01:09:30.664Z",
+        "isbn_id": "8ab99210-2a54-4aa4-a0e8-6df6e3f20136",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "a172cb0a-184a-40bb-8537-da7b275f6765",
+        "title": "1984",
+        "author": "George Orwell",
+        "created_at": "2023-08-10T00:27:05.384Z",
+        "updated_at": "2023-08-10T05:46:38.278Z",
+        "isbn_id": "2c09e231-36b0-4fc4-88cf-f4d1bcb74126",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "164b59fc-f06b-47ea-a12d-584cbfbc6e41",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "created_at": "2023-08-09T22:13:19.945Z",
+        "updated_at": "2023-08-10T04:26:33.720Z",
+        "isbn_id": "a5ee3237-7936-41e7-9783-224b3dabef16",
+        "library_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "0f94cfa9-2764-421c-8eb6-f575d9d46ff9",
+        "due_date": "2023-08-10T07:50:49.893Z",
+        "created_at": "2023-08-10T10:56:52.257Z",
+        "updated_at": "2023-08-10T08:05:31.707Z",
+        "book_id": "a172cb0a-184a-40bb-8537-da7b275f6765",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75ed45b6-d8be-46d1-967b-a2951d559e33",
+        "due_date": "2023-08-10T09:23:11.410Z",
+        "created_at": "2023-08-09T15:18:52.969Z",
+        "updated_at": "2023-08-10T10:05:47.327Z",
+        "book_id": "fea7eddf-5cc7-46d4-bf8c-f7cfb9387ed4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67931e94-20e8-41ed-a843-d7edecd59663",
+        "due_date": "2023-08-09T17:45:41.520Z",
+        "created_at": "2023-08-10T10:52:43.586Z",
+        "updated_at": "2023-08-10T03:50:29.430Z",
+        "book_id": "164b59fc-f06b-47ea-a12d-584cbfbc6e41",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df024f48-cd05-47db-966b-bbd3fd60e6c7",
+        "due_date": "2023-08-09T20:06:20.990Z",
+        "created_at": "2023-08-10T07:57:53.991Z",
+        "updated_at": "2023-08-10T02:37:54.810Z",
+        "book_id": "fea7eddf-5cc7-46d4-bf8c-f7cfb9387ed4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be25a130-5b3c-4601-8671-f17a8ef6c7d5",
+        "due_date": "2023-08-09T12:33:36.441Z",
+        "created_at": "2023-08-09T22:56:05.143Z",
+        "updated_at": "2023-08-10T11:04:30.087Z",
+        "book_id": "fea7eddf-5cc7-46d4-bf8c-f7cfb9387ed4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "borrowing": [
+      {
+        "id": "b599b9b7-d369-4acc-9a57-890d60ab5a33",
+        "borrow_date": "2023-08-10T04:39:48.095Z",
+        "return_date": "2023-08-10T05:04:37.674Z",
+        "created_at": "2023-08-10T05:17:25.164Z",
+        "updated_at": "2023-08-10T05:06:56.660Z",
+        "book_id": "a172cb0a-184a-40bb-8537-da7b275f6765",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d8abd9c-56e6-4529-812b-1c481355a62e",
+        "borrow_date": "2023-08-10T09:01:07.781Z",
+        "return_date": "2023-08-09T22:30:07.330Z",
+        "created_at": "2023-08-09T15:24:14.081Z",
+        "updated_at": "2023-08-09T12:51:47.056Z",
+        "book_id": "fea7eddf-5cc7-46d4-bf8c-f7cfb9387ed4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26b1dd1e-acfe-4270-a615-5bcb8db8e5ea",
+        "borrow_date": "2023-08-09T16:44:35.057Z",
+        "return_date": "2023-08-10T11:19:16.141Z",
+        "created_at": "2023-08-10T04:54:24.880Z",
+        "updated_at": "2023-08-10T01:18:46.884Z",
+        "book_id": "fea7eddf-5cc7-46d4-bf8c-f7cfb9387ed4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ddf23397-1ebc-4996-ade3-56cc667e7bb9",
+        "borrow_date": "2023-08-10T05:27:31.525Z",
+        "return_date": "2023-08-09T19:28:59.319Z",
+        "created_at": "2023-08-10T05:26:32.216Z",
+        "updated_at": "2023-08-10T10:55:06.065Z",
+        "book_id": "a172cb0a-184a-40bb-8537-da7b275f6765",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a774a18c-48a3-4cee-aae7-87d294865bb5",
+        "borrow_date": "2023-08-10T05:07:24.441Z",
+        "return_date": "2023-08-10T04:35:24.356Z",
+        "created_at": "2023-08-09T14:40:24.807Z",
+        "updated_at": "2023-08-10T04:31:07.003Z",
+        "book_id": "164b59fc-f06b-47ea-a12d-584cbfbc6e41",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0afcc7d6-b9d7-4024-8a3e-75c24ff26e83",
+        "email": "Garrett.Schultz@gmail.com",
+        "firstName": "Melisa",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11953427",
+        "tenantId": null
+      },
+      {
+        "reference": "5625310d-c18f-49aa-8b4f-ce706dbb87d0",
+        "email": "Saige.Haley29@gmail.com",
+        "firstName": "Enoch",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/152.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7481dc93-035d-4efc-954a-48c85f905bb4",
+        "email": "Marianna_Brakus@hotmail.com",
+        "firstName": "Sven",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24698614",
+        "tenantId": null
+      },
+      {
+        "reference": "77e870cc-d6ff-42c1-9486-5e355b30889d",
+        "email": "Jamel_White89@gmail.com",
+        "firstName": "Estella",
+        "lastName": "Langosh",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/557.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "993c52a6-a95a-4643-835f-ef0d3fc4f823",
+        "email": "Winona.Sporer@hotmail.com",
+        "firstName": "Ulices",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87654501",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "isbn": [
+      {
+        "id": "055360ed-549e-40af-9928-a0da80b6aec2",
+        "created_at": "2023-08-09T15:36:55.313Z",
+        "updated_at": "2023-08-10T10:10:05.253Z",
+        "number": "978-0-306-40615-7"
+      },
+      {
+        "id": "5da403d1-940e-4c09-9b5c-79e3fb2b5e89",
+        "created_at": "2023-08-10T05:18:31.699Z",
+        "updated_at": "2023-08-09T22:40:49.027Z",
+        "number": "978-0-14-312755-0"
+      },
+      {
+        "id": "b9ee9dc9-63e6-41a6-905a-4c6a6952b0e7",
+        "created_at": "2023-08-10T06:22:07.424Z",
+        "updated_at": "2023-08-09T15:18:14.840Z",
+        "number": "978-0-06-231609-7"
+      },
+      {
+        "id": "e6529a24-498b-4d00-aa13-45fe9d5f0526",
+        "created_at": "2023-08-10T10:28:37.460Z",
+        "updated_at": "2023-08-09T18:38:35.546Z",
+        "number": "978-0-385-53785-8"
+      },
+      {
+        "id": "08f52f30-f031-48cc-b503-bff69b135dd7",
+        "created_at": "2023-08-10T09:53:37.503Z",
+        "updated_at": "2023-08-09T23:03:30.800Z",
+        "number": "978-0-8129-9867-9"
+      }
+    ],
+    "book": [
+      {
+        "id": "167f5fc3-05e4-4451-a0e8-90bd171e1e75",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "created_at": "2023-08-09T16:33:44.412Z",
+        "updated_at": "2023-08-10T07:06:07.819Z",
+        "isbn_id": "055360ed-549e-40af-9928-a0da80b6aec2",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "fe0a4a16-cf8c-454c-a56a-6ddde852ef66",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "created_at": "2023-08-10T08:59:50.257Z",
+        "updated_at": "2023-08-10T01:23:03.704Z",
+        "isbn_id": "b9ee9dc9-63e6-41a6-905a-4c6a6952b0e7",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "7cc0d6eb-c16b-4425-bda3-a42d01582471",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "created_at": "2023-08-10T07:10:39.505Z",
+        "updated_at": "2023-08-09T22:53:41.585Z",
+        "isbn_id": "055360ed-549e-40af-9928-a0da80b6aec2",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "c1b83519-40cd-46b4-adaa-876703134fcc",
+        "title": "1984",
+        "author": "George Orwell",
+        "created_at": "2023-08-09T16:04:40.631Z",
+        "updated_at": "2023-08-10T10:16:43.625Z",
+        "isbn_id": "b9ee9dc9-63e6-41a6-905a-4c6a6952b0e7",
+        "library_id": "main_entity_pk"
+      },
+      {
+        "id": "f3776bf2-5ab9-4558-97cf-a39c085d05d1",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "created_at": "2023-08-10T08:25:14.835Z",
+        "updated_at": "2023-08-10T10:34:37.186Z",
+        "isbn_id": "5da403d1-940e-4c09-9b5c-79e3fb2b5e89",
+        "library_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "2aeefb17-1e9f-4186-a07e-de7cbfb69aeb",
+        "due_date": "2023-08-09T22:43:19.711Z",
+        "created_at": "2023-08-09T22:52:16.009Z",
+        "updated_at": "2023-08-09T15:23:50.472Z",
+        "book_id": "c1b83519-40cd-46b4-adaa-876703134fcc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "57b37557-6a60-4c21-8a6a-3d23550b405b",
+        "due_date": "2023-08-10T04:10:27.709Z",
+        "created_at": "2023-08-10T06:25:53.903Z",
+        "updated_at": "2023-08-10T06:07:16.978Z",
+        "book_id": "f3776bf2-5ab9-4558-97cf-a39c085d05d1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce5d5633-304e-4f9c-9f43-ebaeda14dba5",
+        "due_date": "2023-08-10T11:34:41.983Z",
+        "created_at": "2023-08-09T17:12:04.206Z",
+        "updated_at": "2023-08-10T00:27:43.114Z",
+        "book_id": "c1b83519-40cd-46b4-adaa-876703134fcc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1be1b7af-50e7-4ec6-9039-30d262d270f3",
+        "due_date": "2023-08-09T12:14:32.822Z",
+        "created_at": "2023-08-09T21:26:28.130Z",
+        "updated_at": "2023-08-10T01:38:40.408Z",
+        "book_id": "167f5fc3-05e4-4451-a0e8-90bd171e1e75",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66c925b5-7e9a-4720-9181-943b4dd0501d",
+        "due_date": "2023-08-10T04:01:58.203Z",
+        "created_at": "2023-08-10T06:38:48.791Z",
+        "updated_at": "2023-08-09T11:40:14.964Z",
+        "book_id": "f3776bf2-5ab9-4558-97cf-a39c085d05d1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "borrowing": [
+      {
+        "id": "7cfd1566-6a82-4003-97e8-b18303767d18",
+        "borrow_date": "2023-08-10T01:18:49.196Z",
+        "return_date": "2023-08-10T03:39:40.043Z",
+        "created_at": "2023-08-10T05:25:36.899Z",
+        "updated_at": "2023-08-09T17:03:32.707Z",
+        "book_id": "7cc0d6eb-c16b-4425-bda3-a42d01582471",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ff98e59-30dd-4748-b228-31b0b376467a",
+        "borrow_date": "2023-08-10T11:29:46.551Z",
+        "return_date": "2023-08-10T07:17:35.781Z",
+        "created_at": "2023-08-09T11:52:59.341Z",
+        "updated_at": "2023-08-09T22:37:32.638Z",
+        "book_id": "f3776bf2-5ab9-4558-97cf-a39c085d05d1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5585cd6b-6345-4a7a-b701-a31d9a4a139d",
+        "borrow_date": "2023-08-10T04:52:54.390Z",
+        "return_date": "2023-08-09T23:36:54.983Z",
+        "created_at": "2023-08-09T14:34:43.664Z",
+        "updated_at": "2023-08-09T12:01:26.023Z",
+        "book_id": "fe0a4a16-cf8c-454c-a56a-6ddde852ef66",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "628c9ee6-c85d-441a-89b8-ef7292f02ff9",
+        "borrow_date": "2023-08-09T14:59:24.027Z",
+        "return_date": "2023-08-10T02:46:34.923Z",
+        "created_at": "2023-08-09T20:14:09.543Z",
+        "updated_at": "2023-08-10T05:35:13.352Z",
+        "book_id": "fe0a4a16-cf8c-454c-a56a-6ddde852ef66",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c978e7eb-b303-41d4-8db5-cde505858a4e",
+        "borrow_date": "2023-08-09T22:20:38.483Z",
+        "return_date": "2023-08-10T03:25:45.586Z",
+        "created_at": "2023-08-10T05:42:17.953Z",
+        "updated_at": "2023-08-10T06:13:21.784Z",
+        "book_id": "167f5fc3-05e4-4451-a0e8-90bd171e1e75",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1892c1df-0840-4047-b502-55c2b2f65171",
+        "email": "Nestor.Kuphal37@hotmail.com",
+        "firstName": "Brianne",
+        "lastName": "Bartoletti",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66843469",
+        "tenantId": null
+      },
+      {
+        "reference": "20fcceed-3dda-492b-87e9-4f81b7184090",
+        "email": "Jeremie_Little@gmail.com",
+        "firstName": "Ibrahim",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/851.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "710c132e-677b-400a-a884-a2bbfeee0ebe",
+        "email": "Etha.Dibbert@hotmail.com",
+        "firstName": "Carmella",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/341.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "91be4aa6-7060-4ae9-820e-f81c130b03ad",
+        "email": "Avis_Rosenbaum@hotmail.com",
+        "firstName": "Asha",
+        "lastName": "DuBuque",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50198546",
+        "tenantId": null
+      },
+      {
+        "reference": "431d7de5-cab4-470c-b320-7d22681d463b",
+        "email": "Raven_Leffler69@hotmail.com",
+        "firstName": "Ed",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/404.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
